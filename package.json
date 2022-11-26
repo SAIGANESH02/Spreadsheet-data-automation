@@ -1,0 +1,18 @@
+{
+  "name": "spreadsheet-data-automation",
+  "version": "1.0.0",
+  "description": "Decentral take home task 2",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js 'Stage1.xlsx' 'converted.json'",
+    "test": "jest"
+  },
+  "author": "Sai Ganesh Nellore",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
